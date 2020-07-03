@@ -114,8 +114,7 @@ while True:
     #벽에 부딪히는 거         
     if ball.ycor()>=250:
         ball.sety(250)
-        ball.dy *= -1 
-        ball_s.play()
+        ball.dy *= -1     
     elif ball.ycor()<=-250:
         ball.sety(-250)
         ball.dy = 0
